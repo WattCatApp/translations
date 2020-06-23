@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_columns_departures">1</integer>
+    <integer name="num_columns_alerts">1</integer>
+    <integer name="num_columns_details">2</integer>
+    <integer name="num_columns_subscriptions">1</integer>
+    <integer name="num_columns_trips">1</integer>
+    <integer name="num_columns_trip_details">1</integer>
+</resources>

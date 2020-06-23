@@ -1,0 +1,496 @@
+<resources>
+    <string name="app_name" translatable="false">WattCat</string>
+
+    <!-- Base -->
+    <string name="base_dashboard">Dashboard</string>
+    <string name="base_vehicle_details">Details</string>
+    <string name="base_departures">Departure Timers</string>
+    <string name="base_settings">Settings</string>
+    <string name="base_alerts">Alerts</string>
+    <string name="base_charging">Charging</string>
+    <string name="base_about">About</string>
+    <string name="base_map">Map</string>
+    <string name="base_wakeup_time">Wakeup Time</string>
+    <string name="base_subscriptions">Vehicle Subscriptions</string>
+    <string name="base_trips">Trips</string>
+    <string name="base_trip_detail">Trip Details</string>
+    <string name="base_timed_charging">Timed Charging</string>
+    <string name="base_logout">Log Out</string>
+    <string name="base_transport_mode_enabled">Transport Mode Enabled</string>
+    <string name="base_transport_mode_disabled">Transport Mode Disabled</string>
+    <string name="base_transport_mode_disabled_message">Vehicle theft alarm is now fully active if no other special mode is active</string>
+    <string name="base_transport_mode_enabled_message">Vehicle can now be transported without the theft alarm being triggered</string>
+    <string name="base_transport_mode_toggle_error_message">Transport mode remains unchanged. Please try again</string>
+    <string name="base_service_mode_enabled">Service Mode Enabled</string>
+    <string name="base_service_mode_disabled">Service Mode Disabled</string>
+    <string name="base_service_mode_disabled_message">Vehicle theft alarm is now fully active if no other special mode is active</string>
+    <string name="base_service_mode_enabled_message">Vehicle can now be serviced without the theft alarm being triggered</string>
+    <string name="base_service_mode_toggle_error_message">Service mode remains unchanged. Please try again</string>
+    <string name="base_theft_alarm_trigger_title">Theft alarm triggered!</string>
+    <string name="base_theft_alarm_trigger_text">The vehicle theft alarm has been triggered.\nPlease call Jaguar Assist.</string>
+    <string name="base_crash_alarm_trigger_title">Vehicle crash detected!</string>
+    <string name="base_crash_alarm_trigger_text">The vehicle is reporting a vehicle crash situation.\nPlease contact emergency authorities if you have been involved in an accident.</string>
+    <string name="base_not_ev_dialog_title">Selected vehicle is not an EV</string>
+    <string name="base_not_ev_dialog_text">WattCat has been designed for electric Jaguar vehicles only.\n\nMost features WattCat provides will not work on non-EV vehicles.</string>
+    <string name="base_preconditioning_error_already_running_title">Preconditioning already active</string>
+    <string name="base_preconditioning_error_already_running_message">Preconditioning is already running</string>
+    <string name="base_guardian_mode">Guardian Mode</string>
+
+    <!-- Status alarm notifications -->
+    <string name="alarm_washer_fluid_low_title">Low washer fluid level</string>
+    <string name="alarm_washer_fluid_low_message">%1$s\'s washer fluid level is low. You might want to fill up when you get the chance</string>
+    <string name="alarm_service_required_soon_title">Your vehicle requires service soon</string>
+    <string name="alarm_service_required_soon_message">Your vehicle has almost reached the service distance threshold.</string>
+    <string name="tu_battery_low_title">TCU battery low</string>
+    <string name="tu_battery_low_message">The telematic control unit battery is running low. Consider taking your vehicle for a drive.</string>
+    <string name="battery_voltage_low_title">Battery voltage low</string>
+    <string name="battery_voltage_low_message">The 12V battery voltage is low. Consider taking your vehicle for a drive soon.</string>
+
+    <!-- App shortcuts -->
+    <string name="shortcut_departure_add_short">Add Departure</string>
+    <string name="shortcut_departure_add_long">Add new departure timer</string>
+    <string name="shortcut_charging_logging_add_short">Log charging</string>
+    <string name="shortcut_charging_logging_add_long">Add new charging logging sessions</string>
+    <string name="shortcut_preconditioning_start_short">Precondition</string>
+    <string name="shortcut_preconditioning_start_long">Start preconditioning</string>
+
+    <!-- Generic -->
+    <string name="generic_error_remote">Could not start status service</string>
+    <string name="generic_error_timeout">Operation timed out</string>
+    <string name="generic_error_error">An error occurred</string>
+    <string name="generic_minutes">minutes</string>
+    <string name="generic_true" translatable="false">TRUE</string>
+    <string name="generic_false" translatable="false">FALSE</string>
+    <string name="generic_hr">hr</string>
+    <string name="generic_min">min</string>
+    <string name="generic_loading">Loading</string>
+    <string name="generic_cancel">Cancel</string>
+
+    <!-- About -->
+    <string name="about_version">Version</string>
+    <string name="about_connect">Connect</string>
+    <string name="about_play" translatable="false">Google Play</string>
+    <string name="about_gitter">Questions, feedback and support</string>
+    <string name="about_description">Made with love from Norway</string>
+    <string name="copyright" translatable="false">Redbird © %1$d</string>
+
+    <!-- In App Updates -->
+    <string name="iau_ready">An update is ready to install</string>
+    <string name="iau_restart">Restart</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome</string>
+    <string name="login_subtitle">Please sign in with your InControl credentials to continue</string>
+    <string name="login_username_hint">Email address</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_submit">Submit</string>
+    <string name="login_error_auth">Invalid credentials</string>
+    <string name="login_user_login_error">Could not log in your user</string>
+    <string name="login_device_id_registration_error">Could not register device id</string>
+    <string name="login_keystore_error_title">Android Keystore not functional</string>
+    <string name="login_keystore_error_text">The secure keystore on this device was unable to properly encrypt or decrypt data. Please re-install the application. If the problem persists, feel free to contact support.</string>
+    <string name="login_empty_username">Username cannot be empty</string>
+    <string name="login_empty_password">Password cannot be empty</string>
+    <string name="login_invalid_username_format">Username is not a valid email address</string>
+    <string name="login_market_global">Global</string>
+    <string name="login_market_china">China</string>
+
+    <!-- Settings -->
+    <string name="settings_category_units">Units</string>
+    <string name="settings_category_units_summary">Settings for various units in use</string>
+    <string name="settings_unit_distance">Distance</string>
+    <string name="settings_unit_distance_summary">Unit used for distance</string>
+    <string name="settings_unit_pressure">Pressure</string>
+    <string name="settings_unit_pressure_summary">Unit used for air pressure</string>
+    <string name="settings_unit_temperature">Temperature</string>
+    <string name="settings_unit_temperature_summary">Unit used for temperature</string>
+    <string name="settings_unit_weight">Weight</string>
+    <string name="settings_unit_weight_summary">Unit used for weight</string>
+    <string name="settings_want_notifications">Action result notifications</string>
+    <string name="settings_want_notifications_summary">Get user action result notifications when the app is not in the foreground.</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_category_general_summary">Various user experience related settings</string>
+    <string name="settings_map_style_summary">Theme used for the map displays</string>
+    <string name="settings_map_style">Map style</string>
+    <string name="settings_show_battery_health">Show estimated battery health</string>
+    <string name="settings_show_battery_health_summary">Note that the API returns incorrect health information for vehicles with H264 installed.</string>
+    <string name="settings_auto_dashboard_refresh">Automatic data refresh</string>
+    <string name="settings_auto_dashboard_refresh_summary">Refresh automatically when updated data is available from your vehicle</string>
+    <string name="settings_category_notifications">Notifications</string>
+    <string name="settings_category_notifications_summary">Choose what notifications to show</string>
+    <string name="settings_want_wakeup_notifications">Wakeup timer notifications</string>
+    <string name="settings_want_wakeup_notifications_summary">Get notified when the vehicle is about to go to sleep or scheduling is about to expire</string>
+
+    <!-- Charging States -->
+    <string name="charging_state_unknown">Unknown</string>
+    <string name="charging_state_fault">Fault</string>
+    <string name="charging_state_initializing">Initializing</string>
+    <string name="charging_state_waiting">Waiting</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_range_label">Range</string>
+    <string name="dashboard_charge_label">Charge State</string>
+    <string name="dashboard_set_departure_label">Departures</string>
+    <string name="dashboard_lock_state_locked">Locked</string>
+    <string name="dashboard_lock_state_unlock">Unlocked</string>
+    <string name="dashboard_vehicle_state_parked">Parked</string>
+    <string name="dashboard_vehicle_state_in_use">In use</string>
+    <string name="dashboard_charging_state_charging">Charging</string>
+    <string name="dashboard_charging_state_not_charging">Not Charging</string>
+    <string name="dashboard_charging_state_fully_charged">Full</string>
+    <string name="dashboard_charging_state_paused">Paused</string>
+    <string name="dashboard_destination_hint">Where to?</string>
+    <string name="dashboard_precondition_start">Start</string>
+    <string name="dashboard_precondition_stop">Stop</string>
+    <string name="dashboard_precondition_off">OFF</string>
+    <string name="dashboard_precondition_on">ON</string>
+    <string name="dashboard_unit_km">Km</string>
+    <string name="dashboard_unit_miles">Mi</string>
+    <string name="dashboard_preconditioning_starting">Starting preconditioning</string>
+    <string name="dashboard_preconditioning_started">Preconditioning started</string>
+    <string name="dashboard_preconditioning_start_error">Could not start preconditioning</string>
+    <string name="dashboard_preconditioning_stop_error">Could not stop preconditioning</string>
+    <string name="dashboard_preconditioning_please_try_again">Please try again</string>
+    <string name="dashboard_preconditioning_stopping">Stopping preconditioning</string>
+    <string name="dashboard_preconditioning_stopped">Preconditioning stopped</string>
+    <string name="dashboard_time_to_full">remaining</string>
+    <string name="dashboard_auth_failed">Authentication failed, please log in again</string>
+    <string name="dashboard_preconditioning_error">Climate control request failed</string>
+    <string name="dashboard_preconditioning_error_preconditioning_starting">Could not stop climate. Is it still starting up?</string>
+    <string name="dashboard_reverse_geocode_error">Could not perform reverse position lookup</string>
+    <string name="dashboard_position_error">Could not retrieve vehicle position</string>
+    <string name="dashboard_last_updated">Updated %1$s</string>
+    <string name="dashboard_action_refresh">Refresh</string>
+    <string name="dashboard_action_honk">Honk</string>
+    <string name="dashboard_action_camper_mode">Camper Mode</string>
+    <string name="dashboard_camper_mode_info">Vehicle climate controls will be kept active for the specified number of hours.\n\nClimate controls may periodically stop for a couple of minutes before being restarted.</string>
+    <string name="dashboard_camper_mode_duration">Duration (Hours)</string>
+    <string name="dashboard_camper_mode_disabled">Camper Mode Disabled</string>
+    <string name="dashboard_camper_mode_enabled">Camper Mode Enabled</string>
+    <string name="dashboard_camper_mode_abbr" translatable="false">CAMP</string>
+    <string name="dashboard_camper_mode_ended_title">Camper mode has ended</string>
+    <string name="dashboard_camper_mode_ended_text">Camper mode has now ended and preconditioning will soon stop.</string>
+    <string name="dashboard_camper_mode_ended_low_soc_text">Camper mode has ended due to low vehicle state of charge.</string>
+    <string name="dashboard_updated_data_available">Updated data is available</string>
+    <string name="dashboard_notification_precondition_start_title">Preconditioning has started</string>
+    <string name="dashboard_notification_precondition_start_message">Your I-Pace is now preconditioning</string>
+    <string name="dashboard_notification_precondition_stop_title">Preconditioning has stopped</string>
+    <string name="dashboard_notification_precondition_stop_message">Your I-Pace preconditioning has now stopped</string>
+    <string name="dashboard_no_location_available">Vehicle position unavailable</string>
+    <string name="dashboard_info_title">Vehicle Status</string>
+    <string name="dashboard_info_text">The vehicle data is cached on the InControl server. You can tap the clock icon to see when the data was retrieved from the vehicle. If the data is older than a few minutes WattCat will request updated data from the vehicle automatically.</string>
+    <string name="dashboard_tap_prompt_title">Keep an eye out for these icons</string>
+    <string name="dashboard_tap_prompt_text">Tap them to learn more about WattCat and your I-Pace</string>
+    <string name="dashboard_error_preconditioning_token_error">Could not obtain ECC authentication token</string>
+    <string name="dashboard_locking_vehicle">Locking the vehicle</string>
+    <string name="dashboard_unlocking_vehicle">Unlocking the vehicle</string>
+    <string name="dashboard_vehicle_locked_title">Vehicle locked</string>
+    <string name="dashboard_vehicle_unlocked_title">Vehicle unlocked</string>
+    <string name="dashboard_vehicle_is_locked">Vehicle has been successfully locked</string>
+    <string name="dashboard_vehicle_is_unlocked">Vehicle has been successfully unlocked</string>
+    <string name="dashboard_vehicle_is_locked_title">Vehicle locked</string>
+    <string name="dashboard_vehicle_is_unlocked_title">Vehicle unlocked</string>
+    <string name="dashboard_invalid_pin">Invalid personal PIN.</string>
+    <string name="dashboard_pin_lock_title">Lock the vehicle</string>
+    <string name="dashboard_pin_unlock_title">Unlock the vehicle</string>
+    <string name="dashboard_lock_toggle_failed">Could not toggle vehicle lock state</string>
+    <string name="dashboard_lock_token_error">Could not obtain authentication token</string>
+    <string name="dashboard_biometric_text">Authentication required in order to decrypt user PIN</string>
+    <string name="dashboard_biometric_encryption_title">Encrypt user PIN</string>
+    <string name="dashboard_biometric_encryption_description">Authentication required for PIN encryption</string>
+    <string name="dashboard_vehicle_load_error">Could not load user vehicles</string>
+    <string name="dashboard_vehicle_status_load_error">Could not get vehicle status</string>
+    <string name="dashboard_vehicle_attributes_load_error">Error retrieving vehicle attributes</string>
+    <string name="dashboard_vehicle_health_refresh_error">Could not retrieve updated vehicle status</string>
+    <string name="dashboard_no_vehicles_found">No vehicles found. Logging you out</string>
+    <string name="dashboard_theft_alarm_alarmed">Alarmed</string>
+    <string name="dashboard_honk_success">Vehicle will honk and blink shortly</string>
+    <string name="dashboard_honk_error">Honk request unsuccessful</string>
+    <string name="dashboard_authenticating_climate">Authenticating climate request</string>
+    <string name="dashboard_close_windows">Close Windows</string>
+
+    <!-- Biometrics Dialog -->
+    <string name="dialog_biometric_title">Use biometrics?</string>
+    <string name="dialog_biometric_description">Use biometrics to encrypt and decrypt the user PIN?</string>
+    <string name="dialog_biometric_yes">Yes</string>
+    <string name="dialog_biometric_later">Later</string>
+    <string name="dialog_biometric_never">Never</string>
+
+    <!-- Departures -->
+    <string name="departures_load_error">Could not retrieve departure timers</string>
+    <string name="departures_type_single">Single Departure</string>
+    <string name="departures_title">Departures</string>
+    <string name="departures_subtitle">Departure timers will precondition the climate and prepare your vehicle for the specified departure time.</string>
+    <string name="departures_subtitle_requirement">Departure schedules must be enabled in the vehicle.</string>
+    <string name="departures_empty">No departure timers set</string>
+    <string name="departures_item_menu_delete">Delete</string>
+    <string name="departures_item_deleting">Deleting</string>
+    <string name="departures_delete_started">Departure timer deletion started</string>
+    <string name="departures_delete_forbidden">Departure is already being deleted</string>
+    <string name="departures_error_cp_token">Could not retrieve service token</string>
+    <string name="departures_delete_error_busy">Vehicle is busy, try again later</string>
+    <string name="departures_delete_success_desc">Departure timer deletion success.</string>
+    <string name="departures_delete_success">Departure timer deleted</string>
+    <string name="departures_delete_error_desc">An error occurred when deleting departure timer. Please try again</string>
+    <string name="departures_delete_error">Departure timer deletion failed</string>
+    <string name="departures_mon">mon</string>
+    <string name="departures_tue">tue</string>
+    <string name="departures_wed">wed</string>
+    <string name="departures_thu">thu</string>
+    <string name="departures_fri">fri</string>
+    <string name="departures_sat">sat</string>
+    <string name="departures_sun">sun</string>
+    <string name="departures_no_cp_token">Authentication token not ready</string>
+    <string name="departures_disabled">Disabled</string>
+
+    <!-- Departures Add -->
+    <string name="departures_add_title">Add departure timer</string>
+    <string name="departures_add_subtitle">Create a single or repeated departure timer.</string>
+    <string name="departures_add_single">Single timer</string>
+    <string name="departures_add_repeated">Repeated timer</string>
+    <string name="departures_add_set_time">Set time</string>
+    <string name="departures_add_set_departure_time">Departure Time</string>
+    <string name="departures_add_set_single_departure_title">Single departure timer</string>
+    <string name="departures_add_error">Could not create departure timer</string>
+    <string name="departures_add_submit">Submit</string>
+    <string name="departures_add_service_status_check_failed">Service status check failed</string>
+    <string name="departures_add_ok_notification_title">Departure timer created</string>
+    <string name="departures_add_ok_notification_desc">A new departure timer was successfully created</string>
+    <string name="departures_add_error_notification_title">Departure timer creation error</string>
+    <string name="departures_add_error_notification_desc">The vehicle rejected the departure timer</string>
+    <string name="departures_add_empty_timer">Please set a time first</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title" translatable="false">Alert Log</string>
+    <string name="alerts_subtitle">Recent vehicle events</string>
+    <string name="alerts_empty">No recent alerts</string>
+    <string name="alerts_error">Could not retrieve vehicle alerts</string>
+    <string name="alerts_guardian_mode">Guardian Mode</string>
+
+    <!-- Charging -->
+    <string name="charging_menu_timed_charging">Timed Charging</string>
+    <string name="charging_battery_title">Battery</string>
+    <string name="charging_estimated_range">Estimated Range</string>
+    <string name="charging_state_charging">CHARGING</string>
+    <string name="charging_state_paused">PAUSED</string>
+    <string name="charging_state_fully_charged">FULL</string>
+    <string name="charging_control_title">Control</string>
+    <string name="charging_control_pause">Pause Charging</string>
+    <string name="charging_control_resume">Resume Charging</string>
+    <string name="charging_control_not_charging">Not Charging</string>
+    <string name="charging_control_fully_charged">Fully Charged</string>
+    <string name="charging_cp_token_error">Unable to get the CP service token</string>
+    <string name="charging_toggle_started">Charging toggle started</string>
+    <string name="charging_max_soc_stopping_title">Charging stopping</string>
+    <string name="charging_max_soc_stopping_message">Desired state of charge has been reached. Charging will now pause</string>
+    <string name="charging_max_soc_stopping_with_soc_message">State of charge is %1$d%%. Charging will now pause</string>
+    <string name="charging_max_soc_error_title">Could not stop charging</string>
+    <string name="charging_max_soc_error_message">Desired state of charge has been reached but the attempt to pause charging failed.</string>
+    <string name="charging_control_resume_error">Could not resume charging</string>
+    <string name="charging_control_resume_error_desc">An error occurred when trying to resume charging. Please try again</string>
+    <string name="charging_control_pause_error">Could not pause charging</string>
+    <string name="charging_control_pause_error_desc">An error occurred when trying to pause charging. Please try again</string>
+    <string name="charging_max_soc_title">Max state of charge</string>
+    <string name="charging_max_soc_desc">WattCat will attempt to stop charging once the desired state of charge is reached.</string>
+    <string name="charging_health">health:</string>
+    <string name="charging_started">Charging started</string>
+    <string name="charging_paused">Charging paused</string>
+    <string name="charging_started_desc">Your I-Pace is now charging</string>
+    <string name="charging_paused_desc">Charging has been stopped successfully</string>
+    <string name="charging_logs">Logging</string>
+    <string name="charging_logs_new_session">New Log Session</string>
+    <string name="charging_control_info_title">Charging Control</string>
+    <string name="charging_control_info_text">Charging control does not work reliably on TCU versions older than 16.2. Charging may not actually pause and if it does it tends to resume shortly. Contact your dealer and request an upgrade if you are still running an older version.</string>
+    <string name="charging_max_soc_info_title">Taking care of your battery</string>
+    <string name="charging_max_soc_info_text">Charging to 100&#65130; on a daily basis is unproblematic and you would have to limit it to 50&#65130;for measurable benefit to battery health. However, if you intend to leave your car for longer periods of time it might be a good idea to limit the max state of charge.</string>
+    <string name="charging_info_title">Info</string>
+    <string name="charging_info_header">Battery Capacity</string>
+    <string name="charging_info_text">The I-Pace has a 90 kWh battery pack where approximately 84 kWh is usable. However, a number of factors will impact this including temperature, rate of discharge and cell balance.\n\nThe internal resistance of the battery cell goes up when the temperature drops and driving at high speeds will result in a higher discharge rate and subsequently less usable energy.</string>
+    <string name="charging_low_battery_energy_title">Low battery energy</string>
+    <string name="charging_low_battery_energy">Battery energy levels are below the expected range. Consider balancing cells by leaving the car plugged in or contact your dealer if the issue persists.</string>
+
+    <!-- Charging Log Session -->
+    <string name="charging_log_session_title">Charging Logs</string>
+    <string name="charging_log_session_subtitle">WattCat features a charging logging framework. To get started, create a new charging log session. Make sure the vehicle is charging first though.</string>
+    <string name="charging_log_session_empty">No charging logs</string>
+    <string name="charging_log_session_new_description">Description</string>
+    <string name="charging_log_session_description_is_empty">Description cannot be empty</string>
+    <string name="charging_log_session_new_submit">Submit</string>
+    <string name="charging_log_session_new_cancel">Cancel</string>
+    <string name="charging_log_session_info_title">Charging Log Sessions</string>
+    <string name="charging_log_session_info_text">After a charging session is created logging will begin approximately once every 15 minutes. If the car stops charging the logging session ends.</string>
+
+    <!-- Charging Log Events -->
+    <string name="charging_log_events_title">Charging Log</string>
+    <string name="charging_log_events_data_points">Data Points</string>
+    <string name="charging_log_events_rate_per_hour">per hour</string>
+
+    <!-- Vehicle detail -->
+    <string name="vehicle_detail_title">Vehicle Details</string>
+    <string name="vehicle_detail_details">Details</string>
+    <string name="vehicle_detail_color">Color</string>
+    <string name="vehicle_detail_weight">Gross Weight</string>
+    <string name="vehicle_detail_vin_copied">VIN copied to clipboard</string>
+    <string name="vehicle_detail_copied">%1$s copied to clipboard</string>
+    <string name="vehicle_detail_country">Country</string>
+    <string name="vehicle_detail_registration_number">Registration Number</string>
+    <string name="vehicle_detail_odometer">Odometer</string>
+    <string name="vehicle_detail_battery_voltage">Aux Battery Voltage</string>
+    <string name="vehicle_detail_tu_imei">TCU IMEI</string>
+    <string name="vehicle_detail_tu_battery">TCU Battery</string>
+    <string name="vehicle_detail_tu_sw_main">TCU Software Version</string>
+    <string name="vehicle_detail_tu_config_version">TCU Config Version</string>
+    <string name="vehicle_detail_washer_fluid">Washer Fluid</string>
+    <string name="vehicle_detail_brake_fluid">Brake Fluid</string>
+    <string name="vehicle_detail_coolant">Coolant</string>
+    <string name="vehicle_detail_remaining_climate_runtime">Preconditioning runtime remaining</string>
+    <string name="vehicle_detail_error_status">Unable to retrieve vehicle status</string>
+    <string name="vehicle_detail_error_attributes">Unable to retrieve vehicle attributes</string>
+    <string name="vehicle_detail_distance_to_service">Distance to service</string>
+    <string name="vehicle_detail_battery_preconditioning">Battery Precon</string>
+    <string name="vehicle_detail_all_doors_locked">All Doors Locked</string>
+    <string name="vehicle_detail_preconditioning_priority">Precon Priority</string>
+    <string name="vehicle_detail_preconditioning_priority_comfort">Comfort</string>
+    <string name="vehicle_detail_preconditioning_priority_range">Range</string>
+    <string name="vehicle_detail_service_mode">Service Mode</string>
+    <string name="vehicle_detail_service_mode_toggle_error">Unable to toggle service mode</string>
+    <string name="vehicle_detail_service_mode_expiration_title">Service Mode expiration time</string>
+    <string name="vehicle_detail_transport_mode">Transport Mode</string>
+    <string name="vehicle_detail_transport_mode_toggle_error">Unable to toggle transport mode</string>
+    <string name="vehicle_detail_transport_mode_expiration_title">Transport Mode expiration time</string>
+    <string name="vehicle_detail_transport_mode_enable_dialog_title">Enable Transport Mode</string>
+    <string name="vehicle_detail_transport_mode_disable_dialog_title">Disable Transport Mode</string>
+    <string name="vehicle_detail_service_mode_enable_dialog_title">Enable Service Mode</string>
+    <string name="vehicle_detail_service_mode_disable_dialog_title">Disable Service Mode</string>
+    <string name="vehicle_detail_preconditioning_off">OFF</string>
+
+    <!-- Wakeup Timer -->
+    <string name="wakeup_timer_title">Wakeup Timer</string>
+    <string name="wakeup_timer_subtitle">Your vehicle will go into deep sleep after four days of inactivity. A wakeup timer can be set within 48 hours to bring the vehicle back to life at the specified time.</string>
+    <string name="wakeup_timer_notification_reminder_title">Vehicle will go into deep sleep soon</string>
+    <string name="wakeup_timer_notification_reminder_text">Remote control will be lost once the vehicle goes into sleep.</string>
+    <string name="wakeup_timer_schedule_notification_reminder_title">Last chance to set a wakeup timer</string>
+    <string name="wakeup_timer_schedule_notification_reminder_text">Wakeup timer acceptance ends soon. Set a timer now to avoid losing remote control of the vehicle.</string>
+    <string name="wakeup_timer_status">Status</string>
+    <string name="wakeup_timer_time_to_deep_sleep">Time to deep sleep</string>
+    <string name="wakeup_timer_timer_status_label">Status</string>
+    <string name="wakeup_timer_timer_not_set">No wake up timer set.\nSchedule acceptance ends %1$s.</string>
+    <string name="wakeup_timer_timer_set_text">Vehicle will wake up at %1$s</string>
+    <string name="wakeup_timer_timer_set">Set timer</string>
+    <string name="wakeup_timer_error">Unable to retrieve wakeup timer data</string>
+    <string name="wakeup_timer_swu_error">Unable to retrieve SWU token</string>
+    <string name="wakeup_timer_being_created">Wakeup timer is being set.</string>
+    <string name="wakeup_timer_created">Wakeup timer set</string>
+    <string name="wakeup_timer_created_desc">New wakeup timer successfully applied</string>
+    <string name="wakeup_timer_create_error">Wakeup timer could not be set</string>
+    <string name="wakeup_timer_create_error_desc">Vehicle did not set the wakeup timer.</string>
+    <string name="wakeup_timer_timer_delete">Delete timer</string>
+    <string name="wakeup_timer_being_deleted">Wakeup timer being deleted</string>
+    <string name="wakeup_timer_deleted">Wakeup timer deleted</string>
+    <string name="wakeup_timer_deleted_desc">Wakeup timer was successfully cleared</string>
+    <string name="wakeup_timer_delete_error">Wakeup timer not deleted</string>
+    <string name="wakeup_timer_delete_error_desc">Vehicle did not delete the wakeup timer</string>
+    <string name="wakeup_timer_funky_data">Server returned invalid data.</string>
+    <string name="wakeup_timer_schedule_expired">Wakeup timer scheduling window has expired</string>
+
+    <!-- Subscriptions -->
+    <string name="subscription_stolen_vehicle_locator">Stolen Vehicle Locator</string>
+    <string name="subscriptions_remote">InControl Remote Control</string>
+    <string name="subscriptions_incontrol_pro">InControl Pro Services</string>
+    <string name="subscriptions_ecall">eCall Services</string>
+    <string name="subscriptions_could_not_load">Could not load subscriptions</string>
+    <string name="subscriptions_unknown">Unknown Service</string>
+    <string name="subscriptions_stolen_vehicle_locator_desc">In the event of your vehicle being stolen, you can contact the InControl tracking center and with the support of the authorities, they will track your vehicle and support recovery efforts.</string>
+    <string name="subscriptions_incontrol_pro_desc">Control Pro Services deliver a number of enhanced navigation, infotainment and connectivity capabilities for InControl Touch Pro</string>
+    <string name="subscriptions_remote_desc">Enables remote control of your vehicle using the InControl service.</string>
+    <string name="subscriptions_ecall_desc">The SOS Emergency Call service can send information to the emergency services, including location, as well as connecting you by phone.</string>
+    <string name="subscriptions_expires_prefix">Expires</string>
+
+    <!-- Timed Charging -->
+    <string name="timed_charging_title">Timed Charging</string>
+    <string name="timed_charging_start_time_label">Charging Start</string>
+    <string name="timed_charging_end_time_label">Charging End</string>
+    <string name="timed_charging_enabled">Enabled</string>
+    <string name="timed_charging_disabled">Disabled</string>
+    <string name="timed_charging_start_time_dialog_title">Set charging start time</string>
+    <string name="timed_charging_end_time_dialog_title">Set charging end time</string>
+    <string name="timed_charging_start_success_title">Timed charging starting</string>
+    <string name="timed_charging_start_success_message">Request to start charging was successful. Charging will resume shortly.</string>
+    <string name="timed_charging_stop_success_title">Timed charging pausing</string>
+    <string name="timed_charging_stop_success_message">Request to pause charging was successful. Charging will stop shortly.</string>
+    <string name="timed_charging_error_title">Timed charging request failed</string>
+    <string name="timed_charging_start_error_message">Could not start charging</string>
+    <string name="timed_charging_stop_error_message">Could not stop charging</string>
+    <string name="timed_charging_set_time">Set Time</string>
+
+    <!-- Trips -->
+    <string name="trips_to">to</string>
+    <string name="trips_unknown">Unknown</string>
+    <string name="trips_error">An error occurred. Could not load trip data</string>
+    <string name="trips_trip_being_deleted">Trip has been deleted</string>
+    <string name="trips_trip_delete_error">Trip could not be deleted</string>
+    <string name="trips_trip_header_loading">Loading trips…</string>
+    <string name="trips_number_trips_loaded">trips</string>
+    <string name="trips_batch_deleting">Deleting trips…</string>
+    <string name="trips_search">Search trips</string>
+    <string name="trips_search_hint">Search cities or addresses</string>
+    <string name="trips_menu_batch_delete">Batch delete</string>
+    <string name="trips_privacy_mode">Privacy Mode</string>
+    <string name="trips_privacy_mode_enable_dialog_title">Enable Privacy Mode</string>
+    <string name="trips_privacy_mode_disable_dialog_title">Disable Privacy Mode</string>
+    <string name="trips_privacy_mode_enabled">Privacy mode enabled</string>
+    <string name="trips_privacy_mode_enabled_message">Trip logging is now turned off</string>
+    <string name="trips_privacy_mode_disabled">Privacy mode disabled</string>
+    <string name="trips_privacy_mode_disabled_message">Trip data will now be logged</string>
+    <string name="trips_privacy_mode_toggle_error">Could not toggle privacy mode</string>
+    <string name="trips_privacy_mode_toggle_error_message">Privacy mode unchanged. Please try again</string>
+
+    <!-- Trip details -->
+    <string name="tripdetails_origin">Origin</string>
+    <string name="tripdetails_destination">Destination</string>
+    <string name="tripdetails_average_speed">Average Speed</string>
+    <string name="tripdetails_start_time">Start</string>
+    <string name="tripdetails_finish_time">Finish</string>
+    <string name="tripdetails_brake_eco">Brake Eco Score</string>
+    <string name="tripdetails_throttle_eco">Throttle Eco Score</string>
+    <string name="tripdetails_speed_echo">Speed Eco Score</string>
+    <string name="tripdetails_total_eco">Total Eco Score</string>
+    <string name="tripdetails_start_odometer">Odometer Start</string>
+    <string name="tripdetails_end_odometer">Odometer Finish</string>
+    <string name="tripdetails_energy_consumption">Average Consumption</string>
+    <string name="tripdetails_energy_regenerated">Energy Regenerated</string>
+    <string name="tripdetails_no_boundaries_error">No map boundary data available</string>
+
+    <!-- Trips delete dialog -->
+    <string name="trips_delete_title">Delete trips</string>
+    <string name="trips_delete_desc">This will permanently remove all trip data matching the date filter specified.</string>
+    <string name="trips_pick_date">Cut-off date</string>
+    <string name="trips_batch_delete_picker_title">Select cut-off date</string>
+    <string name="trips_batch_delete_count_label">Trips to delete</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_charging_title">Charging Notifications</string>
+    <string name="notification_channel_charging_desc">Scheduled charging event notifications</string>
+    <string name="notification_channel_general_title">General Notifications</string>
+    <string name="notification_channel_general_desc">Vehicle operation status notifications</string>
+    <string name="notification_channel_timed_charging_title">Timed Charging Events</string>
+    <string name="notification_channel_timed_charging_desc">Notifications related to the timed charging mechanism</string>
+    <string name="notification_channel_wakeuptimer_title">Wakeup Timer Notifications</string>
+    <string name="notification_channel_wakeuptimer_desc">Notifications related to wake up timers including scheduling expiration and deep sleep status.</string>
+    <string name="notification_channel_status_alarms_title">Status Alerts Notifications</string>
+    <string name="notification_channel_status_alarms_desc">WattCat can alert you of issues related to your vehicle such as low washer fluid levels or servicing reminders.</string>
+
+    <!-- Charging complete notification -->
+    <string name="charging_complete_title">Charging complete</string>
+    <string name="charging_complete_text">Your vehicle is now fully charged</string>
+    <string name="charging_ended_title">Charging has ended</string>
+    <string name="charging_ended_message">Your vehicle is now at %1$d%% SoC</string>
+
+    <!-- Dialogs -->
+    <string name="info_dialog_ok">OK</string>
+
+    <!-- Token PIN Dialog -->
+    <string name="dialog_request_pin">Personal PIN Required</string>
+    <string name="dialog_pin_token_pin_hint">Personal PIN</string>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- distance unit names array -->
+    <string-array name="unit_distance_name">
+        <!--item>km</item-->
+        <item>Km</item>
+        <!--item>miles</item-->
+        <item>Miles</item>
+    </string-array>
+
+    <!-- distance unit values array -->
+    <string-array name="unit_distance_array">
+        <!--item>Km</item-->
+        <item>km</item>
+        <!--item>Miles</item-->
+        <item>miles</item>
+    </string-array>
+
+    <!-- pressure unit names array -->
+    <string-array name="unit_pressure_name">
+        <!--item>bar</item-->
+        <item>Bar</item>
+        <!--item>psi</item-->
+        <item>Psi</item>
+    </string-array>
+
+    <!-- pressure unit values array -->
+    <string-array name="unit_pressure_array">
+        <!--item>bar</item-->
+        <item>bar</item>
+        <!--item>psi</item-->
+        <item>psi</item>
+    </string-array>
+
+    <!-- temperature unit names array -->
+    <string-array name="unit_temperature_name">
+        <!--item>celsius</item-->
+        <item>Celsius</item>
+        <!--item>fahrenheit</item-->
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <!-- temperature unit values array -->
+    <string-array name="unit_temperature_array">
+        <!--item>Celsius</item-->
+        <item>celsius</item>
+        <!--item>Fahrenheit</item-->
+        <item>fahrenheit</item>
+    </string-array>
+
+    <!-- map style names -->
+    <string-array name="map_style_names">
+        <item>Default</item>
+        <item>Green Minimalism</item>
+        <item>Apple</item>
+        <item>Dark Modern</item>
+        <item>Winter</item>
+    </string-array>
+
+    <!-- map style values array -->
+    <string-array name="map_style_array">
+        <item>default</item>
+        <item>green</item>
+        <item>apple</item>
+        <item>darkmodern</item>
+        <item>winter</item>
+    </string-array>
+
+    <!-- weight unit names array -->
+    <string-array name="unit_weight_name">
+        <!--item>kg</item-->
+        <item>Kg</item>
+        <!--item>lbs</item-->
+        <item>Lbs</item>
+    </string-array>
+
+    <!-- weight unit values array -->
+    <string-array name="unit_weight_array">
+        <!--item>Kg</item-->
+        <item>kg</item>
+        <!--item>Lbs</item-->
+        <item>lbs</item>
+    </string-array>
+</resources>
